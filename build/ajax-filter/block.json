@@ -1,0 +1,18 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "fancypost/ajax-filter",
+  "title": "Ajax & Filter",
+  "category": "text",
+  "icon": "slides",
+  "description": "Add advanced filtering to your grids and lists. Let users sort posts easily with Ajax. Improve content accessibility and navigation.",
+  "keywords": [
+    "post",
+    "slider"
+  ],
+  "version": "6.0.0",
+  "textdomain": "post-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": "file:./style.css"
+}

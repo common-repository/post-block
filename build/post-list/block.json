@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "fancypost/post-list",
+  "title": "Post List",
+  "category": "text",
+  "icon": "list-view",
+  "description": "Show your posts in a simple, clean list. Perfect for blogs and news sites. Keep your content organized and easy to read.",
+  "keywords": [
+    "latest",
+    "posts",
+    "list"
+  ],
+  "version": "6.0.0",
+  "textdomain": "post-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": "file:./style.css"
+}

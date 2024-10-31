@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "fancypost/post-group",
+  "title": "Post Group",
+  "category": "text",
+  "icon": "excerpt-view",
+  "description": "Add dynamic effects to your headings. Enhance visual appeal with animations. Make your titles more engaging.",
+  "keywords": [
+    "latest",
+    "posts",
+    "group"
+  ],
+  "version": "6.0.0",
+  "textdomain": "post-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": "file:./style.css"
+}

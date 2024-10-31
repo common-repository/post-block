@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "fancypost/post-trisec",
+  "title": "Post Trisect",
+  "category": "text",
+  "icon": "table-col-before",
+  "description": "Display posts in a three-column layout. Ideal for highlighting multiple articles. Achieve a balanced, modern look.",
+  "keywords": [
+    "latest",
+    "posts",
+    "group"
+  ],
+  "version": "6.0.0",
+  "textdomain": "post-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": "file:./style.css"
+}

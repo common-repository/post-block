@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "fancypost/post-grid-interactive",
+  "title": "Post Grid Interactive",
+  "category": "text",
+  "icon": "grid-view",
+  "description": "Add interactive hover effects to your grids. Engage your audience with animations. Make your content stand out.",
+  "keywords": [
+    "latest",
+    "posts",
+    "grid"
+  ],
+  "version": "6.0.0",
+  "textdomain": "post-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": "file:./style.css"
+}

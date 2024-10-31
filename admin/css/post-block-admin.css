@@ -1,0 +1,44 @@
+#adminmenu #toplevel_page_fancypost-init ul.wp-submenu-wrap li {
+    clear: both;
+}
+#toplevel_page_fancypost-init li:not(:last-child) a[href^="admin.php?page=fancypost_opt#tab=single-post-settings"],
+#toplevel_page_fancypost-init li:not(:last-child) a[href^="admin.php?page=fancypost_backup"],
+#toplevel_page_fancypost-init li:not(:last-child) a[href^="edit.php?post_type=frhdfp_blocks"] {
+    position: relative;
+}
+#toplevel_page_fancypost-init li:not(:last-child) a[href^="admin.php?page=fancypost_opt#tab=single-post-settings"]:after,
+#toplevel_page_fancypost-init li:not(:last-child) a[href^="admin.php?page=fancypost_backup"]:after {
+    border-bottom: 1px solid hsla(0,0%,100%,.2);
+    display: block;
+    float: left;
+    margin: 13px -15px 8px;
+    content: "";
+    width: calc(100% + 26px);
+}
+#toplevel_page_fancypost-init li:not(:last-child) a[href^="edit.php?post_type=frhdfp_blocks"]:before {
+    content: "NEW";
+    background: #e91e63;
+    color: #fff;
+    font-size: 8px;
+    font-weight: bold;
+    padding: 0 2px;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    max-height: 13px;
+}
+#toplevel_page_fancypost-init li a[href^="admin.php?page=fancypost_features"] {
+    background: #00a32a !important;
+    font-weight: bold !important;
+    color: #fff;
+}
+#toplevel_page_fancypost-init li a[href^="admin.php?page=fancypost_features"]:hover {
+    color: #fff;
+}
+#toplevel_page_fancypost-init li:not(:last-child) a[href^="admin.php?page=fancypost_pseo"] {
+    display: none !important;
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "gutenberg-post-view/post-block",
+  "title": "Gutenberg Post Grid Predefined Layouts",
+  "category": "text",
+  "icon": "grid-view",
+  "description": "This block offers some stunning grid layouts that will make your content worthwhile.",
+  "keywords": [
+    "latest",
+    "posts",
+    "grid"
+  ],
+  "version": "6.0.0",
+  "textdomain": "post-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": "file:./style.css"
+}

@@ -1,0 +1,126 @@
+.frhd__post-grid-9.frhd__post-block-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 15px;
+  row-gap: 20px;
+}
+.frhd__post-grid-9 article.frhd__post-block-article {
+  border-radius: 4px;
+  box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease;
+  background: #fff;
+  position: relative;
+  overflow: hidden !important;
+}
+.frhd__post-grid-9 .frhd__featured-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  transition: 0.3s;
+}
+.frhd__post-grid-9 article.frhd__post-block-article:hover{
+  transform: translateY(-4px) !important;
+  box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.3), 0 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+.frhd__post-grid-9 article.frhd__post-block-article:hover .frhd__card-content{
+  box-shadow: inset 0 4px 0 0 #ccb65e;
+  border-color: #ccb65e;
+}
+.frhd__post-grid-9 article.frhd__post-block-article:hover .frhd__card-img .frhd__overlay{
+  background-color: rgba(25, 29, 38, 0.85);
+  transition: opacity 0.2s ease;
+  opacity: 1;
+}
+.frhd__post-grid-9 .frhd__card-img {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  transition: opacity 0.2s ease;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.frhd__post-grid-9 .frhd__card-img .frhd__overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  opacity: 0;
+  z-index: 1;
+}
+.frhd__post-grid-9 span.frhd__featured-image-missing {
+  display: block;
+  min-height: 220px;
+  max-height: 220px;
+  background: #cccccc;
+}
+.frhd__post-grid-9 span.frhd__featured-image-missing:before {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%);
+  width: 25px;
+  height: 25px;
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M15 21C14.6917 19.8005 14.1618 18.6686 13.4412 17.6532M3 13.0351C3.31177 13.0127 3.62454 13.0019 3.93756 13.0027C6.57381 12.9466 9.14549 13.7729 11.1937 15.3342C12.0694 16.0016 12.825 16.7848 13.4412 17.6532M16.2449 16.2449C15.2871 16.5074 14.3464 16.9792 13.4412 17.6532' stroke='%23141B34' stroke-width='1.5' stroke-linejoin='round'/%3E%3Ccircle cx='16.5' cy='7.5' r='1.5' stroke='%23141B34' stroke-width='1.5'/%3E%3Cpath d='M2 2L22 22' stroke='%23141B34' stroke-width='1.5' stroke-linejoin='round'/%3E%3Cpath d='M21 3H21.75C21.75 2.58579 21.4142 2.25 21 2.25V3ZM3 21H2.25C2.25 21.4142 2.58579 21.75 3 21.75V21ZM2.25 3V21H3.75V3H2.25ZM21 20.25H3V21.75H21V20.25ZM6.18198 3.75H21V2.25H6.18198V3.75ZM20.25 3V17.818H21.75V3H20.25Z' fill='%23141B34'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  content: "";
+  opacity: .5;
+}
+.frhd__post-grid-9 .frhd__post-title h2 {
+  color: #fff;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: bold;
+  overflow: hidden;
+  margin: 5px 0;
+}
+.frhd__post-grid-9 article.frhd__post-block-article .frhd__post-btn{
+  display: none;
+}
+.frhd__post-grid-9 article.frhd__post-block-article:hover .frhd__post-btn{
+  display: block;
+}
+.frhd__post-grid-9 article.frhd__post-block-article:hover .frhd__post-btn a{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 2;
+  color: #fff;
+  padding: 0 32px;
+  display: inline-block;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  line-height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  pointer-events: painted;
+  z-index: 3;
+}
+.frhd__post-grid-9 .frhd__post-btn a:hover {
+  background: #ccb65e;
+  z-index: 999;
+}
+.frhd__post-grid-9 .frhd__post-excerpt p {
+  font-size: 19px;
+  font-weight: 400;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: rgba(32, 41, 28, 0.8);
+  margin: 5px 0;
+}
+.frhd__post-grid-9 .frhd__card-content {
+  min-height: 104px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  padding: 16px 16px;
+  transition: all 0.2s ease;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

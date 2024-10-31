@@ -1,0 +1,20 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "fancypost/heading-effect",
+  "title": "Heading Effect",
+  "category": "text",
+  "icon": "heading",
+  "description": "Add dynamic effects to your headings. Enhance visual appeal with animations. Make your titles more engaging.",
+  "keywords": [
+    "latest",
+    "heading",
+    "subheading",
+    "effect"
+  ],
+  "version": "6.0.0",
+  "textdomain": "post-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": "file:./style.css"
+}

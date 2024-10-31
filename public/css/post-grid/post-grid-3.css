@@ -1,0 +1,99 @@
+.frhd__post-grid-3 article.frhd__post-block-article {
+  overflow: hidden;
+}
+.frhd__post-grid-3 .frhd__featured-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.frhd__post-grid-3 span.frhd__featured-image-missing:before {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%);
+  width: 25px;
+  height: 25px;
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M15 21C14.6917 19.8005 14.1618 18.6686 13.4412 17.6532M3 13.0351C3.31177 13.0127 3.62454 13.0019 3.93756 13.0027C6.57381 12.9466 9.14549 13.7729 11.1937 15.3342C12.0694 16.0016 12.825 16.7848 13.4412 17.6532M16.2449 16.2449C15.2871 16.5074 14.3464 16.9792 13.4412 17.6532' stroke='%23141B34' stroke-width='1.5' stroke-linejoin='round'/%3E%3Ccircle cx='16.5' cy='7.5' r='1.5' stroke='%23141B34' stroke-width='1.5'/%3E%3Cpath d='M2 2L22 22' stroke='%23141B34' stroke-width='1.5' stroke-linejoin='round'/%3E%3Cpath d='M21 3H21.75C21.75 2.58579 21.4142 2.25 21 2.25V3ZM3 21H2.25C2.25 21.4142 2.58579 21.75 3 21.75V21ZM2.25 3V21H3.75V3H2.25ZM21 20.25H3V21.75H21V20.25ZM6.18198 3.75H21V2.25H6.18198V3.75ZM20.25 3V17.818H21.75V3H20.25Z' fill='%23141B34'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  content: "";
+  opacity: 0.5;
+}
+.frhd__post-grid-3 .frhd__featured-image {
+  background: #cccccc;
+}
+.frhd__post-grid-3 .frhd__featured-image {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.frhd__post-grid-3 .frhd__article-head {
+  position: relative;
+}
+.frhd__post-grid-3 .frhd__post-excerpt p {
+  font-weight: inherit;
+}
+.frhd__post-grid-3 span.frhd__cat-name a:hover {
+  border-color: transparent;
+}
+.frhd__post-grid-3 .frhd__post-btn {
+  z-index: 3;
+  position: relative;
+}
+.frhd__post-grid-3 .frhd__post-btn a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 30px;
+  color: #fff;
+  background: linear-gradient(60deg, #ef5350, #d32f2f);
+  padding: 5px 1px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 1px transparent;
+}
+.frhd__post-grid-3 .frhd__post-btn a:hover {
+  border-color: #fff;
+}
+.frhd__post-grid-3 .frhd__reading-time {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  font-size: 14px;
+  color: #ef5350;
+}
+.frhd__post-grid-3 .frhd__reading-time svg {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  fill: #d32f2f;
+}
+
+/* Overrided Main CSS */
+.frhd__post-grid-3 .frhd__post-meta {
+  display: block;
+  font-style: italic;
+}
+.frhd__post-grid-3 .frhd__post-meta > * {
+  margin-bottom: 10px;
+}
+.frhd__post-grid-3 .frhd__post-meta > *:not(:last-child) {
+  margin: 0;
+}
+
+/* Only for Grid 3 Layout */
+.frhd__post-grid-3 .frhd__cat-wrap a {
+  font-weight: bold;
+}
+.frhd__post-grid-3 .frhd-post-btn-opacity a:hover {
+  opacity: 0.5;
+}
+.frhd__post-grid-3 .frhd-post-btn-rotate a:hover {
+  transform: rotate(3deg) scale(1.009);
+}
+.frhd__post-grid-3 .frhd-post-btn-transform:hover a {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transform: translateY(-2px);
+}

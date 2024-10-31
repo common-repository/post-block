@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "fancypost/post-heading",
+  "title": "Heading",
+  "category": "text",
+  "icon": "heading",
+  "description": "Create eye-catching headings for your content. Customize fonts, sizes, and colors. Make your titles stand out.",
+  "keywords": [
+    "latest",
+    "heading",
+    "subheading"
+  ],
+  "version": "6.0.0",
+  "textdomain": "post-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": "file:./style.css"
+}
